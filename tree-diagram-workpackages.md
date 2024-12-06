@@ -1,6 +1,6 @@
 ```mermaid
 graph TD
-    A["Digital Preservation and Visualisation"] --> B["Work Package 1: Heritage Imaging Techniques"]
+    A["Digital Preservation and Visualisation - BayeuxDigital"] --> B["Work Package 1: Heritage Imaging Techniques"]
     B --> B1["Multispectral Imaging (MSI)"]
     B --> B2["Reflectance Transformation Imaging (RTI)"]
     B --> B3["X-Ray Imaging"]
