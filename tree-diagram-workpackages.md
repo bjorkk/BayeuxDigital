@@ -8,7 +8,7 @@ graph TD
     C --> C1["Processing Heritage Imaging Data"]
     C --> C2["3D Modeling"]
     C --> C3["Metadata Review and Aquisation"]
-    C --> C4 ["LIDO Metadata standard"]
+    C --> C4["LIDO Metadata standard"]
     A --> D["Work Package 3: Web Application Development"]
     D --> D1["Create Webplatform with the museums design guidelines"]
     D --> D2["Interactive Image viewer"]
