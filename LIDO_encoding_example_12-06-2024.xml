@@ -1,0 +1,387 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lido:lido xmlns:lido="http://www.lido-schema.org" 
+           xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+           xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xmlns:gml="http://www.opengis.net/gml">
+    
+    <!-- The object for this encoding: The Statue of the the Niké of Samothrace in the Louvre museum -->
+    <!-- Link to the wikipedia: https://en.wikipedia.org/wiki/Winged_Victory_of_Samothrace -->
+    <!-- Link to the Louvre museum: https://www.louvre.fr/en/explore/the-palace/a-stairway-to-victory -->
+  
+    <lido:lidoRecID>Assignment 01</lido:lidoRecID>
+    <lido:category>
+        <skos:Concept rdf:about="http://terminology.lido-schema.org/lido00096">
+            <skos:prefLabel xml:lang="en">Human-made object</skos:prefLabel> 
+        </skos:Concept>
+    </lido:category>
+    <lido:descriptiveMetadata xml:lang="en">
+        <lido:objectClassificationWrap>
+            <lido:objectWorkTypeWrap>
+                <lido:objectWorkType>
+                    <!-- It is the closest term that I could find -->
+                    <skos:Concept rdf:about="http://vocab.getty.edu/page/aat/300400887"> 
+                        <skos:prefLabel xml:lang="en">Monumental sculpture</skos:prefLabel>
+                    </skos:Concept>
+                </lido:objectWorkType>
+            </lido:objectWorkTypeWrap>
+        </lido:objectClassificationWrap>
+        <lido:objectIdentificationWrap>
+            <lido:titleWrap>
+                <lido:titleSet>
+                    <!-- Here I wanted to show the main title and an alternative title for the statue using Lido vocabulary -->
+                    <lido:appellationValue lido:pref="http://terminology.lido-schema.org/lido00169" xml:lang="en">Winged Victory of Samothrace</lido:appellationValue>
+                </lido:titleSet>
+                <lido:titleSet>
+                    <lido:appellationValue lido:pref="http://terminology.lido-schema.org/lido00170" xml:lang="en">Niké of Samothrace</lido:appellationValue>
+                </lido:titleSet>
+                <lido:titleSet>
+                    <lido:appellationValue xml:lang="ru">Ника Самофракийская</lido:appellationValue>
+                </lido:titleSet>
+                <lido:titleSet>
+                    <lido:appellationValue xml:lang="de">Nike von Samothrake</lido:appellationValue>
+                </lido:titleSet>
+            </lido:titleWrap>
+            <lido:repositoryWrap>
+                <lido:repositorySet>
+                    <lido:displayRepository xml:lang="en">Winged Victory is exhibited at the Louvre Museum in Paris.</lido:displayRepository>
+                    <lido:displayRepository xml:lang="de">Nike von Samothrake ist im Louvre-Museum in Paris ausgestellt.</lido:displayRepository>
+                    <lido:displayRepository xml:lang="ru">Ника Самофракийская выставлена в музее Лувр в Париже.</lido:displayRepository>
+                    <lido:repositoryLocation>
+                        <lido:placeID lido:type="http://terminology.lido-schema.org/lido00099">https://www.wikidata.org/wiki/Q19675</lido:placeID>
+                        <lido:namePlaceSet>
+                            <lido:appellationValue xml:lang="en">The Louvre Museum</lido:appellationValue>
+                            <lido:appellationValue xml:lang="de">Das Louvre-Museum</lido:appellationValue>
+                            <lido:appellationValue xml:lang="ru">Музей Лувр</lido:appellationValue>
+                        </lido:namePlaceSet>
+                        <!-- Here I used the Geography Markup Language (GML) schema, used for location coordinates, to be more precise -->
+                        <lido:gml>
+                            <gml:Point>
+                                <gml:pos>48.8606 2.3376</gml:pos>
+                            </gml:Point>
+                        </lido:gml>
+                        <lido:partOfPlace>
+                            <!-- I made the decision to stop at Paris in the repository location element -->
+                            <lido:placeID lido:type="http://terminology.lido-schema.org/lido00099">http://www.wikidata.org/entity/Q90</lido:placeID>
+                            <lido:namePlaceSet>
+                                <lido:appellationValue xml:lang="en">Paris</lido:appellationValue>
+                                <lido:appellationValue xml:lang="de">Paris</lido:appellationValue>
+                                <lido:appellationValue xml:lang="ru">Париж</lido:appellationValue>
+                            </lido:namePlaceSet>
+                        </lido:partOfPlace>
+                    </lido:repositoryLocation>
+                </lido:repositorySet>
+            </lido:repositoryWrap>
+            <lido:objectDescriptionWrap>
+            <lido:objectDescriptionSet>
+                <lido:descriptionNoteValue xml:lang="en">
+                    It is a masterpiece of Greek sculpture from the Hellenistic era. 
+                </lido:descriptionNoteValue>
+                <lido:descriptionNoteValue xml:lang="de">
+                    Es ist ein Meisterwerk der griechischen Bildhauerei aus der hellenistischen Epoche. 
+                </lido:descriptionNoteValue>
+                <lido:descriptionNoteValue xml:lang="ru">
+                    Это шедевр греческой скульптуры эпохи эллинизма. 
+                </lido:descriptionNoteValue>
+            </lido:objectDescriptionSet>          
+            </lido:objectDescriptionWrap>
+            <lido:objectMeasurementsWrap>
+                <lido:objectMeasurementsSet>
+                    <!-- Was unable to find any other measurements -->
+                    <lido:displayObjectMeasurements xml:lang="en">Total height: 5.57 m.</lido:displayObjectMeasurements>
+                    <lido:objectMeasurements>
+                        <lido:measurementsSet>
+                            <lido:measurementType>
+                                <skos:Concept rdf:about="http://www.wikidata.org/entity/Q208826">
+                                    <skos:prefLabel xml:lang="en">height</skos:prefLabel>
+                                </skos:Concept>
+                            </lido:measurementType>
+                            <lido:measurementUnit>
+                                <skos:Concept rdf:about="http://www.wikidata.org/entity/Q11573">
+                                    <skos:prefLabel xml:lang="en">metre</skos:prefLabel> 
+                                </skos:Concept>
+                            </lido:measurementUnit>
+                            <lido:measurementValue>5.57</lido:measurementValue>
+                        </lido:measurementsSet>
+                    </lido:objectMeasurements>
+                </lido:objectMeasurementsSet>
+            </lido:objectMeasurementsWrap>
+            <lido:objectMaterialsTechWrap>
+                <lido:objectMaterialsTechSet>
+                    <lido:displayMaterialsTech xml:lang="en">It's made of Parian marble.</lido:displayMaterialsTech>
+                    <lido:displayMaterialsTech xml:lang="de">Sie ist aus parischem Marmor gefertigt.</lido:displayMaterialsTech>
+                    <lido:displayMaterialsTech xml:lang="ru">Онa сделанa из паросского мрамора.</lido:displayMaterialsTech>
+                    <lido:materialsTech>
+                        <lido:termMaterialsTech>
+                            <skos:Concept rdf:about="http://vocab.getty.edu/aat/300011594">
+                                <skos:prefLabel xml:lang="en">Parian marble</skos:prefLabel>
+                            </skos:Concept>
+                        </lido:termMaterialsTech>
+                    </lido:materialsTech>
+                </lido:objectMaterialsTechSet>
+            </lido:objectMaterialsTechWrap>
+        </lido:objectIdentificationWrap>
+        <lido:eventWrap>
+            <lido:eventSet>
+                <lido:displayEvent xml:lang="en">
+                    The sculpture was discovered in 1863 by Charles Champoiseau.
+                </lido:displayEvent>
+                <lido:displayEvent xml:lang="de">
+                    Die Skulptur wurde 1863 von Charles Champoiseau entdeckt.
+                </lido:displayEvent>
+                <lido:displayEvent xml:lang="ru">
+                    Скульптура была обнаружена в 1863 году Шарлем Шампуазо.
+                </lido:displayEvent>
+                <lido:event>
+                    <lido:eventType>
+                        <skos:Concept rdf:about="http://terminology.lido-schema.org/lido00002">
+                            <skos:prefLabel xml:lang="en">Finding</skos:prefLabel>
+                            <skos:prefLabel xml:lang="de">Finden</skos:prefLabel>
+                            <skos:prefLabel xml:lang="ru">Находка</skos:prefLabel>
+                        </skos:Concept>
+                    </lido:eventType>
+                    <lido:eventActor>
+                        <lido:displayActorInRole xml:lang="en">Found by: Charles Champoiseau (1830–1909)</lido:displayActorInRole>
+                        <lido:displayActorInRole xml:lang="de">Gefunden von: Charles Champoiseau (1830-1909)</lido:displayActorInRole>
+                        <lido:displayActorInRole xml:lang="ru">Найдена: Шарль Шампуазо (1830-1909)</lido:displayActorInRole>
+                    </lido:eventActor>
+                    <lido:actorInRole>
+                        <lido:actor>
+                            <lido:actorID lido:type="http://terminology.lido-schema.org/lido00099">https://www.wikidata.org/wiki/Q2958707</lido:actorID>
+                            <lido:nameActorSet>
+                                <lido:appellationValue xml:lang="en">Charles Champoiseau (1830–1909)</lido:appellationValue>
+                                <lido:appellationValue xml:lang="de">Charles Champoiseau (1830–1909)</lido:appellationValue>
+                                <lido:appellationValue xml:lang="ru">Шарль Шампуазо (1830-1909)</lido:appellationValue>
+                            </lido:nameActorSet>
+                            <lido:nationalityActor lido:type="http://terminology.lido-schema.org/lido01027">
+                                <lido:term xml:lang="en">French</lido:term>
+                                <lido:term xml:lang="de">Französisch</lido:term>
+                                <lido:term xml:lang="ru">Француз</lido:term>
+                            </lido:nationalityActor>
+                            <lido:vitalDatesActor>
+                                <!-- My attempt at encoding the dates of birth and death -->
+                                <lido:earliestDate>1830</lido:earliestDate>
+                                <lido:latestDate>1909</lido:latestDate>
+                            </lido:vitalDatesActor>
+                            <lido:genderActor lido:type="http://terminology.lido-schema.org/lido00867">
+                                <skos:Concept rdf:about="http://terminology.lido-schema.org/lido00774">
+                                    <skos:prefLabel xml:lang="en">Male</skos:prefLabel>
+                                    <skos:prefLabel xml:lang="de">Männlich</skos:prefLabel>
+                                    <skos:prefLabel xml:lang="ru">Мужской</skos:prefLabel>
+                                </skos:Concept>
+                            </lido:genderActor>
+                            <lido:roleActor>
+                                <lido:term xml:lang="en">Diplomat</lido:term>
+                                <lido:term xml:lang="de">Diplomat</lido:term>
+                                <lido:term xml:lang="ru">Дипломат</lido:term>
+                            </lido:roleActor>
+                        </lido:actor>
+                    </lido:actorInRole>
+                    <lido:eventDate>
+                        <lido:displayDate xml:lang="en">April 13, 1863</lido:displayDate>
+                        <lido:displayDate xml:lang="de">13. April 1863</lido:displayDate>
+                        <lido:displayDate xml:lang="ru">13 апреля 1863</lido:displayDate>
+                        <lido:Date>
+                            <!-- Unsure if this is a good choice to encode a single date -->
+                            <lido:earliestDate>1863-04-13</lido:earliestDate>
+                            <lido:latestDate>1863-04-13</lido:latestDate>
+                        </lido:Date>
+                    </lido:eventDate>
+                </lido:event>
+            </lido:eventSet>
+                <lido:eventSet>
+                    <lido:displayEvent xml:lang="en">
+                        At the declaration of the Second World War in September 1939, the Victory statue was moved to the Château de Valençay (Indre) for safekeeping.
+                    </lido:displayEvent>
+                    <lido:displayEvent xml:lang="de">
+                        Bei Ausbruch des Zweiten Weltkriegs im September 1939 wurde die Siegesstatue bis zur Befreiung im Schloss von Valençay (Indre) aufbewahrt.
+                    </lido:displayEvent>
+                    <lido:displayEvent xml:lang="ru">
+                        После объявления Второй мировой войны в сентябре 1939 года статуя Победы была перевезена в замок Валансe (Индр) для хранения.
+                    </lido:displayEvent>
+                    <lido:event>
+                        <lido:eventType>
+                            <skos:Concept rdf:about="http://terminology.lido-schema.org/lido00402">
+                                <skos:prefLabel xml:lang="en">Conservation</skos:prefLabel>
+                                <skos:prefLabel xml:lang="de">Konservierung</skos:prefLabel>
+                                <skos:prefLabel xml:lang="ru">Сохранение</skos:prefLabel>
+                            </skos:Concept>
+                        </lido:eventType>
+                        <lido:eventActor>
+                            <lido:displayActorInRole xml:lang="en">
+                                Organized by: Louvre Museum authorities
+                            </lido:displayActorInRole>
+                            <lido:displayActorInRole xml:lang="de">
+                                Organisiert von: Louvre Museum Behörden
+                            </lido:displayActorInRole>
+                            <lido:displayActorInRole xml:lang="ru">
+                                Организаторы: Музейные службы Лувра
+                            </lido:displayActorInRole>
+                        </lido:eventActor>
+                        <lido:actorInRole>
+                            <lido:actor>
+                                <lido:actorID lido:type="http://terminology.lido-schema.org/lido00099">https://www.louvre.fr</lido:actorID>
+                                <lido:nameActorSet>
+                                    <lido:appellationValue xml:lang="en">The Louvre Museum</lido:appellationValue>
+                                    <lido:appellationValue xml:lang="de">Das Louvre-Museum</lido:appellationValue>
+                                    <lido:appellationValue xml:lang="ru">Музей Лувр</lido:appellationValue>
+                                </lido:nameActorSet>
+                                <lido:roleActor>
+                                    <lido:term xml:lang="en">Museum Authority</lido:term>
+                                    <lido:term xml:lang="de">Louvre Museum Behörden</lido:term>
+                                    <lido:term xml:lang="ru">Музейные службы Лувра</lido:term>
+                                </lido:roleActor>
+                            </lido:actor>
+                        </lido:actorInRole>
+                        <lido:eventPlace>
+                            <lido:displayPlace xml:lang="en">Château de Valençay, Indre, France</lido:displayPlace>
+                            <lido:displayPlace xml:lang="de">Schloss Valençay, Indre, Frankreich</lido:displayPlace>
+                            <lido:displayPlace xml:lang="ru">Замок Валенсэ, Индр, Франция</lido:displayPlace>
+                            <lido:place>
+                                <lido:namePlaceSet>
+                                    <lido:appellationValue xml:lang="en">Château de Valençay</lido:appellationValue>
+                                    <lido:appellationValue xml:lang="de">Schloss Valençay</lido:appellationValue>
+                                    <lido:appellationValue xml:lang="ru">Замок Валенсэ</lido:appellationValue>
+                                </lido:namePlaceSet>
+                                <lido:placeID lido:type="http://terminology.lido-schema.org/lido00099">https://www.wikidata.org/wiki/Q1142363</lido:placeID>
+                                <lido:gml>
+                                    <gml:Point>
+                                        <gml:pos>47.1575 1.5633</gml:pos>
+                                    </gml:Point>
+                                </lido:gml>
+                            </lido:place>
+                        </lido:eventPlace>
+                        <lido:eventDate>
+                            <lido:displayDate xml:lang="en">
+                                September 1939 - July 1945
+                            </lido:displayDate>
+                            <lido:displayDate xml:lang="de">
+                                September 1939 - Juli 1945
+                            </lido:displayDate>
+                            <lido:displayDate xml:lang="ru">
+                                Сентябрь 1939 - Июль 1945
+                            </lido:displayDate>
+                            <lido:Date>
+                                <lido:earliestDate>1939-09</lido:earliestDate>
+                                <lido:latestDate>1945-07</lido:latestDate>
+                            </lido:Date>
+                        </lido:eventDate>
+                    </lido:event>
+                </lido:eventSet>
+        </lido:eventWrap>
+        <lido:objectRelationWrap>
+            <lido:subjectWrap>
+                <lido:subjectSet>
+                    <lido:displaySubject xml:lang="en">Hellenistic sculpture of Venus de Milo</lido:displaySubject>
+                    <lido:displaySubject xml:lang="de">Hellenistische Skulptur der Venus von Milo</lido:displaySubject>
+                    <lido:displaySubject xml:lang="ru">Скульптура Венеры Милосской в стиле эллинизма</lido:displaySubject>
+                    <lido:subject type="http://terminology.lido-schema.org/lido00525">
+                        <lido:subjectConcept>
+                            <skos:Concept rdf:about="http://vocab.getty.edu/aat/300055964">
+                                <skos:prefLabel xml:lang="en">Hellenism</skos:prefLabel>
+                            </skos:Concept>
+                        </lido:subjectConcept>
+                        <lido:subjectConcept>
+                            <skos:Concept rdf:about="http://vocab.getty.edu/aat/300025943">
+                                <skos:prefLabel xml:lang="en">Women</skos:prefLabel>
+                            </skos:Concept>
+                        </lido:subjectConcept>
+                        <lido:subjectConcept>
+                            <skos:Concept rdf:about="http://vocab.getty.edu/aat/300343852">
+                                <skos:prefLabel xml:lang="en">Goddesses</skos:prefLabel>
+                            </skos:Concept>
+                        </lido:subjectConcept>
+                    </lido:subject>
+                 </lido:subjectSet>
+                <lido:subjectSet>
+                    <lido:displaySubject xml:lang="en">Hellenistic sculpture of Laocoön and His Sons</lido:displaySubject>
+                    <lido:displaySubject xml:lang="de">Hellenistische Skulptur des Laokoon und seiner Söhne</lido:displaySubject>
+                    <lido:displaySubject xml:lang="ru">Эллинистическая скульптура Лаокоона и его сыновей</lido:displaySubject>
+                    <lido:subject type="http://terminology.lido-schema.org/lido00525">
+                        <lido:subjectConcept>
+                            <skos:Concept rdf:about="http://vocab.getty.edu/aat/300055964">
+                                <skos:prefLabel xml:lang="en">Hellenism</skos:prefLabel>
+                            </skos:Concept>
+                        </lido:subjectConcept>
+                        <lido:subjectConcept>
+                            <skos:Concept rdf:about="http://vocab.getty.edu/aat/300417629">
+                                <skos:prefLabel xml:lang="en">Mythology</skos:prefLabel>
+                            </skos:Concept>
+                        </lido:subjectConcept>
+                        <lido:subjectConcept>
+                            <skos:Concept rdf:about="http://vocab.getty.edu/aat/300053742">
+                                <skos:prefLabel xml:lang="en">Restoration</skos:prefLabel>
+                            </skos:Concept>
+                        </lido:subjectConcept>
+                    </lido:subject>
+                </lido:subjectSet>
+            </lido:subjectWrap>
+        </lido:objectRelationWrap>
+    </lido:descriptiveMetadata>
+    <lido:administrativeMetadata>
+        <lido:rightsWorkWrap>
+            <lido:rightsWorkSet>
+                <lido:rightsType>
+                    <skos:Concept rdf:about="http://terminology.lido-schema.org/lido00921">
+                        <skos:prefLabel xml:lang="en">Copyright</skos:prefLabel>
+                        <skos:prefLabel xml:lang="de">Urheberrecht</skos:prefLabel>
+                        <skos:prefLabel xml:lang="ru">Авторские права</skos:prefLabel>
+                    </skos:Concept>
+                </lido:rightsType>
+                <lido:rightsOwner>
+                    <lido:displayActorInRole xml:lang="en">Louvre Museum</lido:displayActorInRole>
+                    <lido:displayActorInRole xml:lang="de">Musée du Louvre</lido:displayActorInRole>
+                    <lido:displayActorInRole xml:lang="ru">Лувр</lido:displayActorInRole>
+                    <lido:actor>
+                        <lido:actorID lido:type="http://terminology.lido-schema.org/lido00099">
+                            https://www.louvre.fr
+                        </lido:actorID>
+                        <lido:nameActorSet>
+                            <lido:appellationValue xml:lang="en">Louvre Museum</lido:appellationValue>
+                            <lido:appellationValue xml:lang="de">Musée du Louvre</lido:appellationValue>
+                            <lido:appellationValue xml:lang="ru">Лувр</lido:appellationValue>
+                        </lido:nameActorSet>
+                    </lido:actor>
+                </lido:rightsOwner>
+                <lido:rightsStatus>
+                    <skos:Concept rdf:about="http://terminology.lido-schema.org/lido00921">
+                        <skos:prefLabel xml:lang="en">Public Domain</skos:prefLabel>
+                        <skos:prefLabel xml:lang="de">Gemeinfrei</skos:prefLabel>
+                        <skos:prefLabel xml:lang="ru">Общественное достояние</skos:prefLabel>
+                    </skos:Concept>
+                </lido:rightsStatus>
+                <lido:rightsSource>
+                    <lido:displaySource xml:lang="en">Louvre Museum, Copyright Law of France</lido:displaySource>
+                    <lido:displaySource xml:lang="de">Musée du Louvre, Urheberrecht in Frankreich</lido:displaySource>
+                    <lido:displaySource xml:lang="ru">Лувр, Закон о авторском праве во Франции</lido:displaySource>
+                </lido:rightsSource>
+                <lido:rightsDate>
+                    <lido:displayDate xml:lang="en">1945-07-01</lido:displayDate>
+                    <lido:displayDate xml:lang="de">1. Juli 1945</lido:displayDate>
+                    <lido:displayDate xml:lang="ru">1 июля 1945</lido:displayDate>
+                    <lido:Date>
+                        <lido:earliestDate>1945-07-01</lido:earliestDate>
+                        <lido:latestDate>1945-07-01</lido:latestDate>
+                    </lido:Date>
+                </lido:rightsDate>
+            </lido:rightsWorkSet>
+        </lido:rightsWorkWrap>
+        <lido:recordWrap>
+            <lido:recordSource lido:type="http://terminology.lido-schema.org/lido00163">
+                <lido:legalBodyName>
+                    <lido:appellationValue>The Louvre</lido:appellationValue>
+                </lido:legalBodyName>
+            </lido:recordSource>
+            <lido:recordRights>
+                <lido:rightsType>
+                    <skos:Concept rdf:about="http://creativecommons.org/licenses/by-sa/4.0/">
+                        <skos:prefLabel xml:lang="en">Creative Commons Attribution-ShareAlike 4.0 International License</skos:prefLabel>
+                    </skos:Concept>
+                </lido:rightsType>
+            </lido:recordRights>
+            <lido:recordInfoSet>
+                <lido:recordMetadataDate lido:type="http://terminology.lido-schema.org/lido00472">2024-11-19</lido:recordMetadataDate>
+            </lido:recordInfoSet>
+        </lido:recordWrap>
+    </lido:administrativeMetadata>
+</lido:lido>
