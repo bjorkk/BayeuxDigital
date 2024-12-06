@@ -1,0 +1,18 @@
+```mermaid
+graph TD
+    A["Main Goal: Digital Preservation"] --> B["Work Package 1: Imaging Techniques"]
+    B --> B1["Multispectral Imaging (MSI)"]
+    B --> B2["Reflectance Transformation Imaging (RTI)"]
+    B --> B3["X-Ray Imaging"]
+    A --> C["Work Package 2: Data Integration and Analysis"]
+    C --> C1["Processing Imaging Data"]
+    C --> C2["3D Modeling"]
+    C --> C3["Metadata Organization"]
+    A --> D["Work Package 3: Web Application Development"]
+    D --> D1["Interactive Visualization"]
+    D --> D2["Researcher Tools"]
+    D --> D3["Public Access Features"]
+    A --> E["Work Package 4: Outreach"]
+    E --> E1["Academic Collaborations"]
+    E --> E2["Educational Resources"]
+    E --> E3["Public Engagement"]
