@@ -4,14 +4,15 @@
 gantt
     title Project Timeline: BayeuxDigital
     dateFormat  YYYY-MM-DD
+    axisFormat %Y-%m
     section Phase I: Preparation and Equipment Acquisition
-    Preparation and equipment acquisition :a1, 2025-03-03, 2025-06-23
+    Preparation and Equipment Acquisition :a1, 2025-03-03, 2025-06-23
     section Phase II: Data Collection
-    Data collection :a2, 2025-05-01, 2025-09-25
+    Data Collection :a2, 2025-05-01, 2025-09-25
     section Phase III: Data Analysis
-    Data analysis :a3, 2025-10-13, 2026-04-10
+    Data Analysis :a3, 2025-10-13, 2026-04-10
     section Phase IV: XML Encoding and Metadata
-    XML encoding and metadata :a4, 2025-11-16, 2026-04-10
+    XML Encoding and Metadata :a4, 2025-11-16, 2026-04-10
     section Phase V: Web Development
     Web development :a5, 2026-06-01, 2026-12-14
 ```
