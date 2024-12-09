@@ -14,6 +14,7 @@ gantt
     XML encoding and metadata :a4, 2025-11-16, 2026-04-10
     section Phase V: Web Development
     Web development :a5, 2026-06-01, 2026-12-14
+```
 
 ### Project Phases and Tasks
 
