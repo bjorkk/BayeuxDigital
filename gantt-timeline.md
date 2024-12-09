@@ -7,7 +7,7 @@ gantt
     section Phase I: Preparation and Equipment Acquisition
     Preparation and equipment acquisition :a1, 2025-03-03, 2025-06-23
     section Phase II: Data Collection
-    Data collection :a2, 2025-01-05, 2025-09-25
+    Data collection :a2, 2025-05-01, 2025-09-25
     section Phase III: Data Analysis
     Data analysis :a3, 2025-10-13, 2026-04-10
     section Phase IV: XML Encoding and Metadata
