@@ -1,8 +1,8 @@
-### Gantt-Timeline-Chart: Bayeux Digital
+### Gantt-Timeline-Chart: BayeuxDigital
 
 ```mermaid
 gantt
-    title Project Timeline: Bayeux Digital
+    title Project Timeline: BayeuxDigital
     dateFormat  YYYY-MM-DD
     section Phase I: Preparation and Equipment Acquisition
     Preparation and equipment acquisition :a1, 2025-03-03, 2025-06-23
