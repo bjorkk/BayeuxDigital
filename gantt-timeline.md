@@ -4,7 +4,8 @@
 gantt
     title Project Timeline: BayeuxDigital
     dateFormat  YYYY-MM-DD
-    axisFormat %Y-%m
+    section Spacer 
+    Spacer Task :s1, 2025-01-01, 2025-02-28
     section Phase I: Preparation and Equipment Acquisition
     Preparation and Equipment Acquisition :a1, 2025-03-03, 2025-06-23
     section Phase II: Data Collection
